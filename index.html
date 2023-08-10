@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../Bootswrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../Bootswrap/js/bootstrap.min.js">
+  <title>CRUD PROJECT</title>
+</head>
+<body>
+  <div class="container card card-ms-6 border-2" id="container">
+    <h3 class="text-center p-2 m-3">List Items </h3>
+    <ul class="list-group card card-sm-4">
+      <li class="list-group-item">Item One <input type="button" value="Delete" class="btn btn-danger float-right"></li>
+      <li class="list-group-item">Item Two <input type="button" value="Delete" class="btn btn-danger float-right"></li>
+    </ul>
+    <hr>
+    <div class="container border">
+      <label for="add"><h3 class="text-center">Add Taks</h3></label>
+      <input type="text" id="add" class="form-control" placeholder="Enter Todo list... "><br>
+      <input type="button" class="btn btn-info btn-block p-3" value="Add To The List" id="click">
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
